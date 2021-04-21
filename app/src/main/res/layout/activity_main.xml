@@ -15,7 +15,7 @@
             style="@style/LayoutMessage">
             <TextView
                 style="@style/TextMessage.Sender"
-                android:text="Hi Leo. Whats up ??\n I need a new logo for group. " />
+                android:text="Hi Leo. Whats up ??\nI need a new logo for group. " />
             <ImageView style="@style/AllDoneIcon" />
         </LinearLayout>
 
@@ -38,11 +38,8 @@
             android:layout_gravity="right"/>
 
         <TextView
-            style="@style/TextMessage.Recevier"
-            android:paddingBottom="@dimen/TextViewRecVertical"
-            android:paddingHorizontal="@dimen/TextViewRecHorizontal"
-            android:layout_marginTop="@dimen/TextViewRecVertical"
-            android:text="Ok I'll start next week.\n Send me documents today." />
+            style="@style/TextMessage.Receiver"
+            android:text="Ok I'll start next week.\nSend me documents today." />
         <TextView
             style="@style/Time"
             android:text="22:32"/>

@@ -24,6 +24,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="fontFamily">sans-serif-medium</item>
         <item name="android:maxLength">50</item>
+        <item name="android:lineSpacingExtra">@dimen/LineSpacing</item>
         <item name="android:paddingTop">@dimen/TextMessagePaddingTop</item>
         <item name="android:textSize">@dimen/TextMessageSize</item>
     </style>
@@ -31,7 +32,11 @@
     <style name="TextMessage.Sender" parent="TextMessage">
         <item name="android:textColor">@color/textSender</item>
     </style>
-    <style name="TextMessage.Recevier" parent="TextMessage">
+    <style name="TextMessage.Receiver" parent="TextMessage">
+        <item name="android:paddingBottom">@dimen/TextViewRecVertical</item>
+        <item name="android:layout_marginTop">@dimen/TextViewRecVertical</item>
+        <item name="android:paddingVertical" tools:targetApi="o">@dimen/TextViewRecPaddingVertical</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">@dimen/TextViewRecPaddingHorizontal</item>
         <item name="android:textColor">@color/textReceiver</item>
         <item name="android:background">@drawable/message_receiver</item>
     </style>
@@ -54,6 +59,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">5dp</item>
     </style>
     <!-- style of send layout -->
     <style name="Send">
