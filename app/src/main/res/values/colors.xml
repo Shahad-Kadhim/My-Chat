@@ -9,4 +9,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="nightActionBar">#202020</color>
     <color name="nightBackground">#0a0a0a</color>
+    <color name="ReceiverMessage">#f7f8fd</color>
+    <color name="SenderMessage">#567af4</color>
+    <color name="textSender">#F4F5FA</color>
+    <color name="textReceiver">#292C2C</color>
+    <color name="sendLight">#f5f6fb</color>
 </resources>

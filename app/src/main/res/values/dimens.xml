@@ -10,4 +10,5 @@
     <dimen name="TextMessageSize">16sp</dimen>
     <dimen name="TimeMarginHorizontal">5dp</dimen>
     <dimen name="ParentLayoutPadding">24dp</dimen>
+    <dimen name="Radius">50dp</dimen>
 </resources>
