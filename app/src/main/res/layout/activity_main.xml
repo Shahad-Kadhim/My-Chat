@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/ParentLayoutPadding">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <LinearLayout
+            style="@style/LayoutMessage">
+            <TextView
+                style="@style/TextMessage"
+                android:text="Hi Leo. Whats up ??\n I need a new logo for group. " />
+            <ImageView style="@style/AllDoneIcon" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Time"
+            android:text="22:30"
+            android:layout_gravity="right"/>
+
+        <LinearLayout style="@style/LayoutMessage">
+            <TextView
+                style="@style/TextMessage"
+                android:text="Simple , minimal and beaut..." />
+            <ImageView
+                style="@style/AllDoneIcon" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Time"
+            android:text="22:31"
+            android:layout_gravity="right"/>
+
+        <TextView
+            style="@style/TextMessage"
+            android:paddingBottom="@dimen/TextViewRecVertical"
+            android:paddingHorizontal="@dimen/TextViewRecHorizontal"
+            android:layout_marginTop="@dimen/TextViewRecVertical"
+            android:text="Ok I'll start next week.\n Send me documents today." />
+        <TextView
+            style="@style/Time"
+            android:text="22:32"/>
+
+        <LinearLayout style="@style/LayoutMessage">
+            <TextView style="@style/TextMessage"
+                android:text="Oh.That's great 😍" />
+            <ImageView style="@style/AllDoneIcon" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/Time"
+            android:text="22:33"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/LayoutSendPadding">
+        <ImageView
+            style="@style/Icons"
+            android:src="@drawable/ic_str__2_" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"/>
+        <ImageView
+            style="@style/Icons"
+            android:src="@drawable/ic__attach"/>
+        <ImageView
+            style="@style/Icons"
+            android:src="@drawable/ic_microphone__2_"/>
+    </LinearLayout>
+
 </LinearLayout>

@@ -7,4 +7,42 @@
         <item name="android:colorBackground">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
+    <!-- layout of message -->
+    <style name="LayoutMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:layout_marginTop">@dimen/LayoutMessageMarginTop</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/LayoutMessagePaddingLeft</item>
+        <item name="android:paddingRight">@dimen/LayoutMessagePaddingRight</item>
+    </style>
+    <!-- style of text into message -->
+    <style name="TextMessage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:maxLength">50</item>
+        <item name="android:paddingTop">@dimen/TextMessagePaddingTop</item>
+        <item name="android:textSize">@dimen/TextMessageSize</item>
+    </style>
+    <!-- style of icon all done in sender message -->
+    <style name="AllDoneIcon" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/ic_baseline_done_all_24</item>
+    </style>
+    <!-- style of time of message -->
+    <style name="Time" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">5dp</item>
+    </style>
+    <!-- style of media icon -->
+    <style name="Icons" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
 </resources>
