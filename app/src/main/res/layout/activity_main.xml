@@ -38,7 +38,7 @@
             android:layout_gravity="right"/>
 
         <TextView
-            style="@style/TextMessage.Receiver"
+            style="@style/Theme.TextMessage.Receiver"
             android:text="Ok I'll start next week.\nSend me documents today." />
         <TextView
             style="@style/Time"

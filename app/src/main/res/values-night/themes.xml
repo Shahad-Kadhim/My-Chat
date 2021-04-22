@@ -2,9 +2,18 @@
     <!-- Base application theme. -->
     <style name="Theme.MyChat" parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/nightActionBar</item>
+        <item name="colorPrimary">@color/nightPrimary</item>
         <item name="titleTextColor">@color/white</item>
         <item name="android:colorBackground">@color/nightBackground</item>
         <!-- Customize your theme here. -->
+    </style>
+    <!-- style of send layout -->
+    <style name="Send">
+        <item name="android:background">@drawable/send_night</item>
+    </style>
+    <!-- set background and color text  of receiver message  in night mode  -->
+    <style name="Theme.TextMessage.Receiver" parent="TextMessage.Receiver">
+        <item name="android:textColor">@color/textWhite</item>
+        <item name="android:background">@drawable/message_receiver_night</item>
     </style>
 </resources>

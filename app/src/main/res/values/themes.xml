@@ -30,15 +30,19 @@
     </style>
     <!-- set color in sender message -->
     <style name="TextMessage.Sender" parent="TextMessage">
-        <item name="android:textColor">@color/textSender</item>
+        <item name="android:textColor">@color/textWhite</item>
     </style>
+    <!-- set att of receiver message   -->
     <style name="TextMessage.Receiver" parent="TextMessage">
         <item name="android:paddingBottom">@dimen/TextViewRecVertical</item>
         <item name="android:layout_marginTop">@dimen/TextViewRecVertical</item>
         <item name="android:paddingVertical" tools:targetApi="o">@dimen/TextViewRecPaddingVertical</item>
         <item name="android:paddingHorizontal" tools:targetApi="o">@dimen/TextViewRecPaddingHorizontal</item>
-        <item name="android:textColor">@color/textReceiver</item>
-        <item name="android:background">@drawable/message_receiver</item>
+    </style>
+    <!-- set background and color text  of receiver message  in light mode  -->
+    <style name="Theme.TextMessage.Receiver" parent="TextMessage.Receiver">
+        <item name="android:textColor">@color/textReceiverLight</item>
+        <item name="android:background">@drawable/message_receiver_light</item>
     </style>
     <!-- style of icon all done in sender message -->
     <style name="AllDoneIcon" >
